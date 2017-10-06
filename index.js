@@ -56,4 +56,4 @@ app.get('/set-thread/:thread', (req, res) => {
   res.end();
 });
 
-app.listen(8080, '0.0.0.0');
+app.listen(80, '0.0.0.0');
