@@ -32,7 +32,7 @@ module.exports = async function getRunner(siteKey, constructorOptions = defaults
           proxy: options.proxy,
           username: options.username,
           url: options.puppeteerUrl,
-          args: ['--no-sandbox']
+          args: ['--no-sandbox', '--expose-wasm']
         })
       );
     });

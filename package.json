@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts" : {
-  	"start" : "node index.js"
+  "scripts": {
+    "start": "node --expose-wasm index.js"
   },
   "engines": {
     "node": ">=8.0",
     "npm": ">=5.0"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "socket.io": "^2.0.3"
   }
 }
